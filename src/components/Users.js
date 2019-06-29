@@ -3,6 +3,11 @@ import { connect } from 'react-redux'
 
 class Users extends Component {
 
+  state = {
+    username: '',
+    hometown: ''
+  }
+
   render() {
     return (
       <div>

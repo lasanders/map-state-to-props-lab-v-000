@@ -18,7 +18,7 @@ class Users extends Component {
 
 const mapStateToProps = (state) => {
   debugger;
-  return { Users: state.users, numberOfUsers: state.users.length }
+  return { users: state.users, numberOfUsers: state.users.length }
 }
 
 export default connect()(Users);

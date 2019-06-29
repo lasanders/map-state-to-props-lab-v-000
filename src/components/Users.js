@@ -8,14 +8,11 @@ class Users extends Component {
       <div>
         <ul>
           Users!
-          <p>{UserInput}</p>
-          <p>{this.props.users.count}</p>
         </ul>
       </div>
     )
   }
 }
-
 
 const mapStateToProps = (state) => {
   debugger;
